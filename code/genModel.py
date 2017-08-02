@@ -1,5 +1,7 @@
 #using python implementation of word2vec 
 from gensim.models import word2vec
+import warnings
+warnings.filterwarnings('ignore')
 import logging
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s',level=logging.INFO)
 
